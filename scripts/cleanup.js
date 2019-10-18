@@ -1,39 +1,47 @@
 const path = require('path');
 const fsc = require('fs-cheerio');
+const { readdirSync } = require('fs');
 const ramda = require('ramda');
 
-async function cleanFile(inPath, outPath) {
+const onlineUrl = 'https://router.vuejs.org';
+
+async function cleanFile(fileName) {
+  const inPath = path.join(__dirname, '../raw-html', fileName);
+  const outPath = path.join(__dirname, '../clean-html', fileName);
+
   console.log('Cleaning', inPath);
-  let $ = await fsc.readFile(inPath);
-  
-  // Remove extra navigation
+
+  const $ = await fsc.readFile(inPath);
+
+  // Remove extra navigation and CSS
   $('header').remove();
   $('.sidebar').remove();
-  
-  // Remove extra CSS
   $('.page').removeClass('page');
-  
-  // Rewrite links to reference local HTML files
+
+  // Rewrite links to reference local HTML files.
   $('a').each(function(i, elem) {
     let href = $(this).attr('href');
-    if (href.startsWith('https://router.vuejs.org')) {
-      const newHref = ramda.last(ramda.split('/', href));
+    if (href.startsWith(onlineUrl)) {
+      let newHref;
+      // Handle exceptions for indexes
+      if (href === onlineUrl + '/') {
+        newHref = 'introduction.html';
+      } else if (href === onlineUrl + '/guide/') {
+        newHref = 'guide.html';
+      } else if (href.startsWith(onlineUrl + '/api/')) {
+        newHref = href.replace(onlineUrl + '/api/', 'api.html');
+      } else {
+        newHref = ramda.last(ramda.split('/', href));
+      }
+
       $(this).attr('href', newHref);
     }
   })
-  
+
   // Write clean file to disk
   await fsc.writeFile(outPath, $);
 }
 
+const files = readdirSync(path.join(__dirname, '../raw-html'));
 
-let inPath = path.join(__dirname, '../raw-html', 'API Reference _ Vue Router (2019-10-18 11_53_26 AM).html');
-let outPath = path.join(__dirname, '../clean-html', 'api-reference.html');
-
-cleanFile(inPath, outPath);
-
-
-inPath = path.join(__dirname, '../raw-html', 'Redirect and Alias _ Vue Router (2019-10-18 11_51_44 AM).html');
-outPath = path.join(__dirname, '../clean-html', 'redirect-and-alias.html');
-
-cleanFile(inPath, outPath);
+files.forEach(cleanFile);
