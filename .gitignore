@@ -2,7 +2,9 @@ gibo 2.2.3 by Simon Whitaker <sw@netcetera.org>
 https://github.com/simonwhitaker/gibo
 ### https://raw.github.com/github/gitignore/f57304e9762876ae4c9b02867ed0cb887316387e/Node.gitignore
 
+# Project-specific files
 .DS_Store
+clean-html
 
 # Logs
 logs
