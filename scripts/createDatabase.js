@@ -19,30 +19,29 @@ function insertQuery({ name, path }) {
 db.serialize(() => {
   db.run('CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT);');
   db.run('CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path);');
-});
 
+  // Go through HTML files and create an entry for each anchor-link
+  const files = fs.readdirSync(path.join(__dirname, '../clean-html'));
 
-// Go through HTML files and create an entry for each anchor-link
-const files = fs.readdirSync(path.join(__dirname, '../clean-html'));
+  files.forEach(async (fileName, i) => {
+    const inPath = path.join(__dirname, '../clean-html', fileName);
 
-files.forEach(async fileName => {
-  const inPath = path.join(__dirname, '../clean-html', fileName);
+    console.log('Creating entries for', inPath);
 
-  console.log('Creating entries for', inPath);
+    const $ = await fsc.readFile(inPath);
 
-  const $ = await fsc.readFile(inPath);
+    $('a.header-anchor').each(function(i, elem) {
+      let path = $(this).attr('href');
+      const name = $(this).parent().text().replace('# ', '');
+      if (path.startsWith('#')) {
+        path = fileName + path;
+      }
 
-  $('a.header-anchor').each(function(i, elem) {
-    let path = $(this).attr('href');
-    const name = $(this).parent().text().replace('# ', '');
-    if (path.startsWith('#')) {
-      path = fileName + path;
-    }
-
-    // TODO add more precise Types
-    db.run(insertQuery({
-      name,
-      path,
-    }));
+      // TODO add more precise Types
+      db.run(insertQuery({
+        name,
+        path,
+      }));
+    });
   });
 });
