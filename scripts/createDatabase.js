@@ -23,6 +23,8 @@ function insertQuery({ name, path }) {
   return `INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ("${name}", "Method", "${path}");`;
 }
 
+const queryData = {};
+
 db.serialize(() => {
   db.run(
     'CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT);',
@@ -32,10 +34,14 @@ db.serialize(() => {
   // Go through HTML files and create an entry for each anchor-link
   const documentFiles = fs.readdirSync(documentsDir);
 
-  documentFiles.forEach(async function indexFile(fileName, i) {
+  const insertQueries = documentFiles.map(async function makeQueries(
+    fileName,
+    i,
+  ) {
     const inPath = path.join(documentsDir, fileName);
+    const queries = [];
 
-    console.log('Creating entries for', inPath);
+    console.log('Creating insert queries for', inPath);
 
     const $ = await fsc.readFile(inPath);
 
@@ -54,6 +60,13 @@ db.serialize(() => {
       }
 
       // TODO add more precise Types
+      queryData[path] = {
+        name,
+        path,
+        type: 'Method',
+        tag: $(this).parent()[0].name,
+      };
+
       db.run(
         insertQuery({
           name: ramda.replace(/\"/g, "'", name),
@@ -61,5 +74,11 @@ db.serialize(() => {
         }),
       );
     });
+    return queries;
+  });
+
+  Promise.all(insertQueries).then(x => {
+    // console.log(queryData);
+    fs.writeFileSync(`${lib}.json`, JSON.stringify(queryData, null, 2), 'utf8');
   });
 });

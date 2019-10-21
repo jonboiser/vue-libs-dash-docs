@@ -11,8 +11,10 @@
   "scripts": {
     "cleanup-vuex": "node ./scripts/cleanup.js vuex",
     "cleanup-vue-router": "node ./scripts/cleanup.js vue-router",
+    "cleanup-vue-test-utils": "node ./scripts/cleanup.js vue-test-utils",
     "build-vuex": "node ./scripts/createDatabase.js vuex",
-    "build-vue-router": "node ./scripts/createDatabase.js vue-router"
+    "build-vue-router": "node ./scripts/createDatabase.js vue-router",
+    "build-vue-test-utils": "node ./scripts/createDatabase.js vue-test-utils"
   },
   "prettier": {
     "trailingComma": "all",
