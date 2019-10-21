@@ -1,13 +1,16 @@
-const path = require('path');
-const fsc = require('fs-cheerio');
 const { readdirSync } = require('fs');
+const fsc = require('fs-cheerio');
+const path = require('path');
 const ramda = require('ramda');
+const paths = require('./paths');
 
-const onlineUrl = 'https://router.vuejs.org';
+const lib = process.argv[2];
+const { rawHtmlDir, onlineUrl, docsetResourcesDir } = paths(lib);
+const rawHtmlFiles = readdirSync(rawHtmlDir);
 
-async function cleanFile(fileName) {
-  const inPath = path.join(__dirname, '../raw-html', fileName);
-  const outPath = path.join(__dirname, '../clean-html', fileName);
+rawHtmlFiles.forEach(async function cleanFile(fileName) {
+  const inPath = path.join(rawHtmlDir, fileName);
+  const outPath = path.join(docsetResourcesDir, fileName);
 
   console.log('Cleaning', inPath);
 
@@ -17,6 +20,13 @@ async function cleanFile(fileName) {
   $('header').remove();
   $('.sidebar').remove();
   $('.page').removeClass('page');
+
+  // HACK: Wrap headers in .custom to remove extra padding
+  ['h1', 'h2', 'h3'].forEach(function(htag) {
+    $(htag).each(function(i, elem) {
+      $(this).wrap('<span class="custom"></span>');
+    });
+  });
 
   // Rewrite links to reference local HTML files.
   $('a').each(function(i, elem) {
@@ -36,12 +46,8 @@ async function cleanFile(fileName) {
 
       $(this).attr('href', newHref);
     }
-  })
+  });
 
   // Write clean file to disk
   await fsc.writeFile(outPath, $);
-}
-
-const files = readdirSync(path.join(__dirname, '../raw-html'));
-
-files.forEach(cleanFile);
+});

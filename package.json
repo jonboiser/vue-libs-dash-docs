@@ -7,5 +7,15 @@
     "fs-cheerio": "^3.0.0",
     "ramda": "^0.26.1",
     "sqlite3": "^4.1.0"
+  },
+  "scripts": {
+    "cleanup-vuex": "node ./scripts/cleanup.js vuex",
+    "cleanup-vue-router": "node ./scripts/cleanup.js vue-router",
+    "build-vuex": "node ./scripts/createDatabase.js vuex",
+    "build-vue-router": "node ./scripts/createDatabase.js vue-router"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
   }
 }

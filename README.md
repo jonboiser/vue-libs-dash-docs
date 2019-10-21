@@ -1,3 +1,7 @@
-# vue-router-dash-docs
+# vue-libs-dash-docs
 
-Project to make a Dash-compatible docset for Vue Router.
+Project to make a Dash-compatible docsets for:
+
+* Vue Router
+* Vuex
+* vue-test-utils
