@@ -8,115 +8,117 @@
   "api.html#mount": {
     "name": "mount()",
     "path": "api.html#mount",
-    "type": "Section",
+    "type": "Function",
     "tag": "h2"
   },
   "api.html#shallowmount": {
     "name": "shallowMount()",
     "path": "api.html#shallowmount",
-    "type": "Section",
+    "type": "Function",
     "tag": "h2"
   },
   "api.html#render": {
     "name": "render()",
     "path": "api.html#render",
-    "type": "Section",
+    "type": "Function",
     "tag": "h2"
   },
   "api.html#rendertostring": {
     "name": "renderToString()",
     "path": "api.html#rendertostring",
-    "type": "Section",
+    "type": "Function",
     "tag": "h2"
   },
   "api.html#selectors": {
     "name": "Selectors",
     "path": "api.html#selectors",
-    "type": "Section",
+    "type": "Parameter",
     "tag": "h2"
   },
   "api.html#css-selectors": {
     "name": "CSS Selectors",
     "path": "api.html#css-selectors",
-    "type": "Method",
+    "type": "Parameter",
     "tag": "h3"
   },
   "api.html#vue-components": {
     "name": "Vue Components",
     "path": "api.html#vue-components",
-    "type": "Method",
+    "type": "Parameter",
     "tag": "h3"
   },
   "api.html#find-option-object": {
     "name": "Find Option Object",
     "path": "api.html#find-option-object",
-    "type": "Method",
+    "type": "Parameter",
     "tag": "h3"
   },
   "api.html#name": {
     "name": "Name",
     "path": "api.html#name",
     "type": "Method",
-    "tag": "h4"
+    "tag": "h4",
+    "skip": true
   },
   "api.html#ref": {
     "name": "Ref",
     "path": "api.html#ref",
     "type": "Method",
-    "tag": "h4"
+    "tag": "h4",
+    "skip": true
   },
   "api.html#createlocalvue": {
     "name": "createLocalVue()",
     "path": "api.html#createlocalvue",
-    "type": "Section",
+    "type": "Function",
     "tag": "h2"
   },
   "api.html#createwrapper-node-options": {
     "name": "createWrapper(node [, options])",
     "path": "api.html#createwrapper-node-options",
-    "type": "Section",
+    "type": "Function",
     "tag": "h2"
   },
   "api.html#config": {
     "name": "Config",
     "path": "api.html#config",
-    "type": "Section",
+    "type": "Object",
     "tag": "h2"
   },
   "api.html#vue-test-utils-config-options": {
     "name": "Vue Test Utils Config Options",
     "path": "api.html#vue-test-utils-config-options",
-    "type": "Method",
+    "type": "Parameter",
     "tag": "h3"
   },
   "api.html#stubs": {
     "name": "stubs",
     "path": "api.html#stubs",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#mocks": {
     "name": "mocks",
     "path": "api.html#mocks",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#methods": {
     "name": "methods",
     "path": "api.html#methods",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#provide": {
     "name": "provide",
     "path": "api.html#provide",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#silent": {
     "name": "silent",
     "path": "api.html#silent",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   }
 }

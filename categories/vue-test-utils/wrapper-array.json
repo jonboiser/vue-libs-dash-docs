@@ -2,7 +2,7 @@
   "wrapper-array.html#wrapperarray": {
     "name": "WrapperArray",
     "path": "wrapper-array.html#wrapperarray",
-    "type": "Guide",
+    "type": "Object",
     "tag": "h1"
   },
   "wrapper-array.html#properties": {
@@ -14,13 +14,13 @@
   "wrapper-array.html#wrappers": {
     "name": "wrappers",
     "path": "wrapper-array.html#wrappers",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "wrapper-array.html#length": {
     "name": "length",
     "path": "wrapper-array.html#length",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "wrapper-array.html#methods": {
@@ -32,79 +32,80 @@
   "wrapper-array.html#at": {
     "name": "at",
     "path": "wrapper-array.html#at",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#contains": {
     "name": "contains",
     "path": "wrapper-array.html#contains",
     "type": "Method",
-    "tag": "h3"
+    "tag": "h3",
+    "note": "Should be h2"
   },
   "wrapper-array.html#destroy": {
     "name": "destroy",
     "path": "wrapper-array.html#destroy",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#filter": {
     "name": "filter",
     "path": "wrapper-array.html#filter",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#is": {
     "name": "is",
     "path": "wrapper-array.html#is",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#isempty": {
     "name": "isEmpty",
     "path": "wrapper-array.html#isempty",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#isvueinstance": {
     "name": "isVueInstance",
     "path": "wrapper-array.html#isvueinstance",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#setchecked": {
     "name": "setChecked",
     "path": "wrapper-array.html#setchecked",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#setdata": {
     "name": "setData",
     "path": "wrapper-array.html#setdata",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#setmethods": {
     "name": "setMethods",
     "path": "wrapper-array.html#setmethods",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#setprops": {
     "name": "setProps",
     "path": "wrapper-array.html#setprops",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#setvalue": {
     "name": "setValue",
     "path": "wrapper-array.html#setvalue",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper-array.html#trigger": {
     "name": "trigger",
     "path": "wrapper-array.html#trigger",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   }
 }

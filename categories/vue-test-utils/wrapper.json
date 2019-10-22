@@ -2,7 +2,7 @@
   "wrapper.html#wrapper": {
     "name": "Wrapper",
     "path": "wrapper.html#wrapper",
-    "type": "Guide",
+    "type": "Object",
     "tag": "h1"
   },
   "wrapper.html#properties": {
@@ -14,31 +14,31 @@
   "wrapper.html#vm": {
     "name": "vm",
     "path": "wrapper.html#vm",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "wrapper.html#element": {
     "name": "element",
     "path": "wrapper.html#element",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "wrapper.html#options": {
     "name": "options",
     "path": "wrapper.html#options",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "wrapper.html#options-attachedtodocument": {
     "name": "options.attachedToDocument",
     "path": "wrapper.html#options-attachedtodocument",
-    "type": "Method",
+    "type": "Property",
     "tag": "h4"
   },
   "wrapper.html#options-sync": {
     "name": "options.sync",
     "path": "wrapper.html#options-sync",
-    "type": "Method",
+    "type": "Property",
     "tag": "h4"
   },
   "wrapper.html#methods": {
@@ -50,145 +50,145 @@
   "wrapper.html#attributes": {
     "name": "attributes",
     "path": "wrapper.html#attributes",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#classes": {
     "name": "classes",
     "path": "wrapper.html#classes",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#contains": {
     "name": "contains",
     "path": "wrapper.html#contains",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#destroy": {
     "name": "destroy",
     "path": "wrapper.html#destroy",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#emitted": {
     "name": "emitted",
     "path": "wrapper.html#emitted",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#emittedbyorder": {
     "name": "emittedByOrder",
     "path": "wrapper.html#emittedbyorder",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#exists": {
     "name": "exists",
     "path": "wrapper.html#exists",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#find": {
     "name": "find",
     "path": "wrapper.html#find",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#findall": {
     "name": "findAll",
     "path": "wrapper.html#findall",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#html": {
     "name": "html",
     "path": "wrapper.html#html",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#is": {
     "name": "is",
     "path": "wrapper.html#is",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#isempty": {
     "name": "isEmpty",
     "path": "wrapper.html#isempty",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#isvisible": {
     "name": "isVisible",
     "path": "wrapper.html#isvisible",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#isvueinstance": {
     "name": "isVueInstance",
     "path": "wrapper.html#isvueinstance",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#name": {
     "name": "name",
     "path": "wrapper.html#name",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#props": {
     "name": "props",
     "path": "wrapper.html#props",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#setchecked": {
     "name": "setChecked",
     "path": "wrapper.html#setchecked",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#setdata": {
     "name": "setData",
     "path": "wrapper.html#setdata",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#setmethods": {
     "name": "setMethods",
     "path": "wrapper.html#setmethods",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#setprops": {
     "name": "setProps",
     "path": "wrapper.html#setprops",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#setselected": {
     "name": "setSelected",
     "path": "wrapper.html#setselected",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#setvalue": {
     "name": "setValue",
     "path": "wrapper.html#setvalue",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#text": {
     "name": "text",
     "path": "wrapper.html#text",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   },
   "wrapper.html#trigger": {
     "name": "trigger",
     "path": "wrapper.html#trigger",
-    "type": "Section",
+    "type": "Method",
     "tag": "h2"
   }
 }
