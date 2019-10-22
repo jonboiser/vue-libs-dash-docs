@@ -1,0 +1,92 @@
+{
+  "options.html#mounting-options": {
+    "name": "Mounting Options",
+    "path": "options.html#mounting-options",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "options.html#context": {
+    "name": "context",
+    "path": "options.html#context",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#slots": {
+    "name": "slots",
+    "path": "options.html#slots",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#scopedslots": {
+    "name": "scopedSlots",
+    "path": "options.html#scopedslots",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#stubs": {
+    "name": "stubs",
+    "path": "options.html#stubs",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#mocks": {
+    "name": "mocks",
+    "path": "options.html#mocks",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#localvue": {
+    "name": "localVue",
+    "path": "options.html#localvue",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#attachtodocument": {
+    "name": "attachToDocument",
+    "path": "options.html#attachtodocument",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#attrs": {
+    "name": "attrs",
+    "path": "options.html#attrs",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#propsdata": {
+    "name": "propsData",
+    "path": "options.html#propsdata",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#listeners": {
+    "name": "listeners",
+    "path": "options.html#listeners",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#parentcomponent": {
+    "name": "parentComponent",
+    "path": "options.html#parentcomponent",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#provide": {
+    "name": "provide",
+    "path": "options.html#provide",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#sync": {
+    "name": "sync",
+    "path": "options.html#sync",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "options.html#other-options": {
+    "name": "Other options",
+    "path": "options.html#other-options",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "wrapper.html#wrapper": {
+    "name": "Wrapper",
+    "path": "wrapper.html#wrapper",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "wrapper.html#properties": {
+    "name": "Properties",
+    "path": "wrapper.html#properties",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#vm": {
+    "name": "vm",
+    "path": "wrapper.html#vm",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "wrapper.html#element": {
+    "name": "element",
+    "path": "wrapper.html#element",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "wrapper.html#options": {
+    "name": "options",
+    "path": "wrapper.html#options",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "wrapper.html#options-attachedtodocument": {
+    "name": "options.attachedToDocument",
+    "path": "wrapper.html#options-attachedtodocument",
+    "type": "Method",
+    "tag": "h4"
+  },
+  "wrapper.html#options-sync": {
+    "name": "options.sync",
+    "path": "wrapper.html#options-sync",
+    "type": "Method",
+    "tag": "h4"
+  },
+  "wrapper.html#methods": {
+    "name": "Methods",
+    "path": "wrapper.html#methods",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#attributes": {
+    "name": "attributes",
+    "path": "wrapper.html#attributes",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#classes": {
+    "name": "classes",
+    "path": "wrapper.html#classes",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#contains": {
+    "name": "contains",
+    "path": "wrapper.html#contains",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#destroy": {
+    "name": "destroy",
+    "path": "wrapper.html#destroy",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#emitted": {
+    "name": "emitted",
+    "path": "wrapper.html#emitted",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#emittedbyorder": {
+    "name": "emittedByOrder",
+    "path": "wrapper.html#emittedbyorder",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#exists": {
+    "name": "exists",
+    "path": "wrapper.html#exists",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#find": {
+    "name": "find",
+    "path": "wrapper.html#find",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#findall": {
+    "name": "findAll",
+    "path": "wrapper.html#findall",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#html": {
+    "name": "html",
+    "path": "wrapper.html#html",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#is": {
+    "name": "is",
+    "path": "wrapper.html#is",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#isempty": {
+    "name": "isEmpty",
+    "path": "wrapper.html#isempty",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#isvisible": {
+    "name": "isVisible",
+    "path": "wrapper.html#isvisible",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#isvueinstance": {
+    "name": "isVueInstance",
+    "path": "wrapper.html#isvueinstance",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#name": {
+    "name": "name",
+    "path": "wrapper.html#name",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#props": {
+    "name": "props",
+    "path": "wrapper.html#props",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#setchecked": {
+    "name": "setChecked",
+    "path": "wrapper.html#setchecked",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#setdata": {
+    "name": "setData",
+    "path": "wrapper.html#setdata",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#setmethods": {
+    "name": "setMethods",
+    "path": "wrapper.html#setmethods",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#setprops": {
+    "name": "setProps",
+    "path": "wrapper.html#setprops",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#setselected": {
+    "name": "setSelected",
+    "path": "wrapper.html#setselected",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#setvalue": {
+    "name": "setValue",
+    "path": "wrapper.html#setvalue",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#text": {
+    "name": "text",
+    "path": "wrapper.html#text",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "wrapper.html#trigger": {
+    "name": "trigger",
+    "path": "wrapper.html#trigger",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

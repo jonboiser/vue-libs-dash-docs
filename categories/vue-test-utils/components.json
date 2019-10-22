@@ -1,0 +1,26 @@
+{
+  "components.html#components": {
+    "name": "Components",
+    "path": "components.html#components",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "components.html#routerlinkstub": {
+    "name": "RouterLinkStub",
+    "path": "components.html#routerlinkstub",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "components.html#transitionstub": {
+    "name": "TransitionStub",
+    "path": "components.html#transitionstub",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "components.html#transitiongroupstub": {
+    "name": "TransitionGroupStub",
+    "path": "components.html#transitiongroupstub",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

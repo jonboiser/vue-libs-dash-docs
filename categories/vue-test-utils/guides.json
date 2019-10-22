@@ -1,0 +1,500 @@
+{
+  "guides.html#guides": {
+    "name": "Guides",
+    "path": "guides.html#guides",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "guides.html#getting-started": {
+    "name": "Getting Started",
+    "path": "guides.html#getting-started",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#setup": {
+    "name": "Setup",
+    "path": "guides.html#setup",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mounting-components": {
+    "name": "Mounting Components",
+    "path": "guides.html#mounting-components",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#test-rendered-html-output-of-the-component": {
+    "name": "Test rendered HTML output of the component",
+    "path": "guides.html#test-rendered-html-output-of-the-component",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#simulating-user-interaction": {
+    "name": "Simulating User Interaction",
+    "path": "guides.html#simulating-user-interaction",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#what-about-nexttick": {
+    "name": "What about nextTick?",
+    "path": "guides.html#what-about-nexttick",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#what-s-next": {
+    "name": "What's Next",
+    "path": "guides.html#what-s-next",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#common-tips": {
+    "name": "Common Tips",
+    "path": "guides.html#common-tips",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#knowing-what-to-test": {
+    "name": "Knowing What to Test",
+    "path": "guides.html#knowing-what-to-test",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#shallow-rendering": {
+    "name": "Shallow Rendering",
+    "path": "guides.html#shallow-rendering",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#asserting-emitted-events": {
+    "name": "Asserting Emitted Events",
+    "path": "guides.html#asserting-emitted-events",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#emitting-event-from-child-component": {
+    "name": "Emitting Event from Child Component",
+    "path": "guides.html#emitting-event-from-child-component",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#manipulating-component-state": {
+    "name": "Manipulating Component State",
+    "path": "guides.html#manipulating-component-state",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mocking-props": {
+    "name": "Mocking Props",
+    "path": "guides.html#mocking-props",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#applying-global-plugins-and-mixins": {
+    "name": "Applying Global Plugins and Mixins",
+    "path": "guides.html#applying-global-plugins-and-mixins",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mocking-injections": {
+    "name": "Mocking Injections",
+    "path": "guides.html#mocking-injections",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#stubbing-components": {
+    "name": "Stubbing components",
+    "path": "guides.html#stubbing-components",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#dealing-with-routing": {
+    "name": "Dealing with Routing",
+    "path": "guides.html#dealing-with-routing",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#detecting-styles": {
+    "name": "Detecting styles",
+    "path": "guides.html#detecting-styles",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-key-mouse-and-other-dom-events": {
+    "name": "Testing Key, Mouse and other DOM events",
+    "path": "guides.html#testing-key-mouse-and-other-dom-events",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#trigger-events": {
+    "name": "Trigger events",
+    "path": "guides.html#trigger-events",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#options": {
+    "name": "Options",
+    "path": "guides.html#options",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mouse-click-example": {
+    "name": "Mouse Click Example",
+    "path": "guides.html#mouse-click-example",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#keyboard-example": {
+    "name": "Keyboard Example",
+    "path": "guides.html#keyboard-example",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#important": {
+    "name": "Important",
+    "path": "guides.html#important",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#choosing-a-test-runner": {
+    "name": "Choosing a test runner",
+    "path": "guides.html#choosing-a-test-runner",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#browser-environment": {
+    "name": "Browser Environment",
+    "path": "guides.html#browser-environment",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-single-file-components": {
+    "name": "Testing Single-File Components",
+    "path": "guides.html#testing-single-file-components",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#resources": {
+    "name": "Resources",
+    "path": "guides.html#resources",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-single-file-components-with-jest": {
+    "name": "Testing Single-File Components with Jest",
+    "path": "guides.html#testing-single-file-components-with-jest",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#setting-up-jest": {
+    "name": "Setting up Jest",
+    "path": "guides.html#setting-up-jest",
+    "type": "Method",
+    "tag": "h4"
+  },
+  "guides.html#processing-single-file-components-in-jest": {
+    "name": "Processing Single-File Components in Jest",
+    "path": "guides.html#processing-single-file-components-in-jest",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#handling-webpack-aliases": {
+    "name": "Handling webpack Aliases",
+    "path": "guides.html#handling-webpack-aliases",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#configuring-babel-for-jest": {
+    "name": "Configuring Babel for Jest",
+    "path": "guides.html#configuring-babel-for-jest",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#placing-test-files": {
+    "name": "Placing Test Files",
+    "path": "guides.html#placing-test-files",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#coverage": {
+    "name": "Coverage",
+    "path": "guides.html#coverage",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#example-spec": {
+    "name": "Example Spec",
+    "path": "guides.html#example-spec",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#snapshot-testing": {
+    "name": "Snapshot Testing",
+    "path": "guides.html#snapshot-testing",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#resources-2": {
+    "name": "Resources",
+    "path": "guides.html#resources-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-single-file-components-with-mocha-webpack": {
+    "name": "Testing Single-File Components with Mocha + webpack",
+    "path": "guides.html#testing-single-file-components-with-mocha-webpack",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#setting-up-mocha-webpack": {
+    "name": "Setting Up mocha-webpack",
+    "path": "guides.html#setting-up-mocha-webpack",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#extra-webpack-configuration": {
+    "name": "Extra webpack Configuration",
+    "path": "guides.html#extra-webpack-configuration",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#externalizing-npm-dependencies": {
+    "name": "Externalizing NPM Dependencies",
+    "path": "guides.html#externalizing-npm-dependencies",
+    "type": "Method",
+    "tag": "h4"
+  },
+  "guides.html#source-maps": {
+    "name": "Source Maps",
+    "path": "guides.html#source-maps",
+    "type": "Method",
+    "tag": "h4"
+  },
+  "guides.html#setting-up-browser-environment": {
+    "name": "Setting Up Browser Environment",
+    "path": "guides.html#setting-up-browser-environment",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#picking-an-assertion-library": {
+    "name": "Picking an Assertion Library",
+    "path": "guides.html#picking-an-assertion-library",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#optimizing-babel-for-tests": {
+    "name": "Optimizing Babel for Tests",
+    "path": "guides.html#optimizing-babel-for-tests",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#adding-a-test": {
+    "name": "Adding a test",
+    "path": "guides.html#adding-a-test",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#coverage-2": {
+    "name": "Coverage",
+    "path": "guides.html#coverage-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#resources-3": {
+    "name": "Resources",
+    "path": "guides.html#resources-3",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-single-file-components-with-karma": {
+    "name": "Testing Single-File Components with Karma",
+    "path": "guides.html#testing-single-file-components-with-karma",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#setting-up-mocha": {
+    "name": "Setting up Mocha",
+    "path": "guides.html#setting-up-mocha",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#karma-configuration": {
+    "name": "Karma Configuration",
+    "path": "guides.html#karma-configuration",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#picking-an-assertion-library-2": {
+    "name": "Picking an Assertion Library",
+    "path": "guides.html#picking-an-assertion-library-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#adding-a-test-2": {
+    "name": "Adding a test",
+    "path": "guides.html#adding-a-test-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#coverage-3": {
+    "name": "Coverage",
+    "path": "guides.html#coverage-3",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#resources-4": {
+    "name": "Resources",
+    "path": "guides.html#resources-4",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-asynchronous-behavior": {
+    "name": "Testing Asynchronous Behavior",
+    "path": "guides.html#testing-asynchronous-behavior",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#using-with-typescript": {
+    "name": "Using with TypeScript",
+    "path": "guides.html#using-with-typescript",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#adding-typescript": {
+    "name": "Adding TypeScript",
+    "path": "guides.html#adding-typescript",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#setting-up-jest-2": {
+    "name": "Setting up Jest",
+    "path": "guides.html#setting-up-jest-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#processing-single-file-components-in-jest-2": {
+    "name": "Processing Single-File Components in Jest",
+    "path": "guides.html#processing-single-file-components-in-jest-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#configuring-typescript-for-jest": {
+    "name": "Configuring TypeScript for Jest",
+    "path": "guides.html#configuring-typescript-for-jest",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#placing-test-files-2": {
+    "name": "Placing Test Files",
+    "path": "guides.html#placing-test-files-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#writing-a-unit-test": {
+    "name": "Writing a unit test",
+    "path": "guides.html#writing-a-unit-test",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#resources-5": {
+    "name": "Resources",
+    "path": "guides.html#resources-5",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#using-with-vue-router": {
+    "name": "Using with Vue Router",
+    "path": "guides.html#using-with-vue-router",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#installing-vue-router-in-tests": {
+    "name": "Installing Vue Router in tests",
+    "path": "guides.html#installing-vue-router-in-tests",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-components-that-use-router-link-or-router-view": {
+    "name": "Testing components that use router-link or router-view",
+    "path": "guides.html#testing-components-that-use-router-link-or-router-view",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#using-stubs": {
+    "name": "Using stubs",
+    "path": "guides.html#using-stubs",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#installing-vue-router-with-localvue": {
+    "name": "Installing Vue Router with localVue",
+    "path": "guides.html#installing-vue-router-with-localvue",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mocking-route-and-router": {
+    "name": "Mocking $route and $router",
+    "path": "guides.html#mocking-route-and-router",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#common-gotchas": {
+    "name": "Common gotchas",
+    "path": "guides.html#common-gotchas",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#using-with-vuex": {
+    "name": "Using with Vuex",
+    "path": "guides.html#using-with-vuex",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "guides.html#testing-vuex-in-components": {
+    "name": "Testing Vuex in components",
+    "path": "guides.html#testing-vuex-in-components",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guides.html#mocking-actions": {
+    "name": "Mocking Actions",
+    "path": "guides.html#mocking-actions",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mocking-getters": {
+    "name": "Mocking Getters",
+    "path": "guides.html#mocking-getters",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#mocking-with-modules": {
+    "name": "Mocking with Modules",
+    "path": "guides.html#mocking-with-modules",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-a-vuex-store": {
+    "name": "Testing a Vuex Store",
+    "path": "guides.html#testing-a-vuex-store",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-getters-mutations-and-actions-separately": {
+    "name": "Testing getters, mutations, and actions separately",
+    "path": "guides.html#testing-getters-mutations-and-actions-separately",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#testing-a-running-store": {
+    "name": "Testing a running store",
+    "path": "guides.html#testing-a-running-store",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "guides.html#resources-6": {
+    "name": "Resources",
+    "path": "guides.html#resources-6",
+    "type": "Method",
+    "tag": "h3"
+  }
+}
