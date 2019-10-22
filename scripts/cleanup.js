@@ -61,7 +61,7 @@ rawHtmlFiles.forEach(async function cleanFile(fileName) {
   $('.page').removeClass('page');
 
   // HACK: Wrap headers in .custom to remove extra padding
-  ['h1', 'h2', 'h3'].forEach(function(htag) {
+  ['h1', 'h2', 'h3', 'h4'].forEach(function(htag) {
     $(htag).each(function(i, elem) {
       $(this).wrap('<span class="custom"></span>');
     });
@@ -112,6 +112,7 @@ rawHtmlFiles.forEach(async function cleanFile(fileName) {
       h1: 'Guide',
       h2: 'Section',
       h3: 'Method',
+      h4: 'Method',
     };
     // TODO add more precise Types
     linkData[path] = {
