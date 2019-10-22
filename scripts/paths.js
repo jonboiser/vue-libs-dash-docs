@@ -22,6 +22,7 @@ module.exports = function getPaths(lib) {
       onlineUrl: 'https://vue-test-utils.vuejs.org',
       docsetResourcesDir: docsetDir('vuetest'),
       rawHtmlDir: rawHtmlDir('vue-test-utils'),
+      categories: require('../categories/vue-test-utils'),
     };
   }
 };

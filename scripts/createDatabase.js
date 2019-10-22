@@ -7,10 +7,9 @@ const paths = require('./paths');
 
 const lib = process.argv[2];
 
-const { docsetResourcesDir } = paths(lib);
+const { docsetResourcesDir, categories } = paths(lib);
 
 dbPath = path.join(docsetResourcesDir, 'docSet.dsidx');
-documentsDir = path.join(docsetResourcesDir, 'Documents');
 
 if (fs.existsSync(dbPath)) {
   fs.unlinkSync(dbPath);
@@ -19,11 +18,9 @@ if (fs.existsSync(dbPath)) {
 // Initialize DB
 const db = new sqlite3.Database(dbPath);
 
-function insertQuery({ name, path }) {
-  return `INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ("${name}", "Method", "${path}");`;
+function insertQuery({ name, path, type }) {
+  return `INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ("${name}", "${type}", "${path}");`;
 }
-
-const queryData = {};
 
 db.serialize(() => {
   db.run(
@@ -31,54 +28,19 @@ db.serialize(() => {
   );
   db.run('CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path);');
 
-  // Go through HTML files and create an entry for each anchor-link
-  const documentFiles = fs.readdirSync(documentsDir);
-
-  const insertQueries = documentFiles.map(async function makeQueries(
-    fileName,
-    i,
-  ) {
-    const inPath = path.join(documentsDir, fileName);
-    const queries = [];
-
-    console.log('Creating insert queries for', inPath);
-
-    const $ = await fsc.readFile(inPath);
-
-    $('a.header-anchor').each(function(i, elem) {
-      let path = $(this).attr('href');
-      const name = ramda.replace(
-        '# ',
-        '',
-        $(this)
-          .parent()
-          .text(),
-      );
-
-      if (path.startsWith('#')) {
-        path = fileName + path;
-      }
-
-      // TODO add more precise Types
-      queryData[path] = {
-        name,
-        path,
-        type: 'Method',
-        tag: $(this).parent()[0].name,
-      };
-
+  ramda.forEachObjIndexed(function(value, key) {
+    const { skip, name, path, type } = value;
+    if (skip) {
+      console.log('Skipping', key);
+    } else {
+      console.log('Adding entry for', key, name, type);
       db.run(
         insertQuery({
-          name: ramda.replace(/\"/g, "'", name),
+          name,
           path,
+          type,
         }),
       );
-    });
-    return queries;
-  });
-
-  Promise.all(insertQueries).then(x => {
-    // console.log(queryData);
-    fs.writeFileSync(`${lib}.json`, JSON.stringify(queryData, null, 2), 'utf8');
-  });
+    }
+  }, categories);
 });
