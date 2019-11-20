@@ -9,6 +9,7 @@
     "name": "The Simplest Store",
     "path": "guide.html#the-simplest-store",
     "type": "Method",
-    "tag": "h3"
+    "tag": "h3",
+    "skip": true
   }
 }

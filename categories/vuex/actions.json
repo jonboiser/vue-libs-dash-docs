@@ -8,19 +8,19 @@
   "actions.html#dispatching-actions": {
     "name": "Dispatching Actions",
     "path": "actions.html#dispatching-actions",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "actions.html#dispatching-actions-in-components": {
     "name": "Dispatching Actions in Components",
     "path": "actions.html#dispatching-actions-in-components",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "actions.html#composing-actions": {
     "name": "Composing Actions",
     "path": "actions.html#composing-actions",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   }
 }

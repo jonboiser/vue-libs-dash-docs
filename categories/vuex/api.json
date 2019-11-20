@@ -20,49 +20,49 @@
   "api.html#state": {
     "name": "state",
     "path": "api.html#state",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#mutations": {
     "name": "mutations",
     "path": "api.html#mutations",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#actions": {
     "name": "actions",
     "path": "api.html#actions",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#getters": {
     "name": "getters",
     "path": "api.html#getters",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#modules": {
     "name": "modules",
     "path": "api.html#modules",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#plugins": {
     "name": "plugins",
     "path": "api.html#plugins",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#strict": {
     "name": "strict",
     "path": "api.html#strict",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#devtools": {
     "name": "devtools",
     "path": "api.html#devtools",
-    "type": "Method",
+    "type": "Option",
     "tag": "h3"
   },
   "api.html#vuex-store-instance-properties": {
@@ -74,13 +74,13 @@
   "api.html#state-2": {
     "name": "state",
     "path": "api.html#state-2",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "api.html#getters-2": {
     "name": "getters",
     "path": "api.html#getters-2",
-    "type": "Method",
+    "type": "Property",
     "tag": "h3"
   },
   "api.html#vuex-store-instance-methods": {
@@ -152,31 +152,31 @@
   "api.html#mapstate": {
     "name": "mapState",
     "path": "api.html#mapstate",
-    "type": "Method",
+    "type": "Function",
     "tag": "h3"
   },
   "api.html#mapgetters": {
     "name": "mapGetters",
     "path": "api.html#mapgetters",
-    "type": "Method",
+    "type": "Function",
     "tag": "h3"
   },
   "api.html#mapactions": {
     "name": "mapActions",
     "path": "api.html#mapactions",
-    "type": "Method",
+    "type": "Function",
     "tag": "h3"
   },
   "api.html#mapmutations": {
     "name": "mapMutations",
     "path": "api.html#mapmutations",
-    "type": "Method",
+    "type": "Function",
     "tag": "h3"
   },
   "api.html#createnamespacedhelpers": {
     "name": "createNamespacedHelpers",
     "path": "api.html#createnamespacedhelpers",
-    "type": "Method",
+    "type": "Function",
     "tag": "h3"
   }
 }

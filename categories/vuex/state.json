@@ -8,31 +8,31 @@
   "state.html#single-state-tree": {
     "name": "Single State Tree",
     "path": "state.html#single-state-tree",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "state.html#getting-vuex-state-into-vue-components": {
     "name": "Getting Vuex State into Vue Components",
     "path": "state.html#getting-vuex-state-into-vue-components",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "state.html#the-mapstate-helper": {
     "name": "The mapState Helper",
     "path": "state.html#the-mapstate-helper",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "state.html#object-spread-operator": {
     "name": "Object Spread Operator",
     "path": "state.html#object-spread-operator",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "state.html#components-can-still-have-local-state": {
     "name": "Components Can Still Have Local State",
     "path": "state.html#components-can-still-have-local-state",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   }
 }

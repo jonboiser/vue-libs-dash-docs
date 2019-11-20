@@ -9,6 +9,7 @@
     "name": "Two-way Computed Property",
     "path": "forms.html#two-way-computed-property",
     "type": "Method",
-    "tag": "h3"
+    "tag": "h3",
+    "skip": true
   }
 }

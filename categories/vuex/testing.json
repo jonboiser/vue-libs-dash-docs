@@ -8,43 +8,43 @@
   "testing.html#testing-mutations": {
     "name": "Testing Mutations",
     "path": "testing.html#testing-mutations",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "testing.html#testing-actions": {
     "name": "Testing Actions",
     "path": "testing.html#testing-actions",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "testing.html#testing-getters": {
     "name": "Testing Getters",
     "path": "testing.html#testing-getters",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "testing.html#running-tests": {
     "name": "Running Tests",
     "path": "testing.html#running-tests",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "testing.html#running-in-node": {
     "name": "Running in Node",
     "path": "testing.html#running-in-node",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "testing.html#running-in-browser": {
     "name": "Running in Browser",
     "path": "testing.html#running-in-browser",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "testing.html#running-in-browser-with-karma-karma-webpack": {
     "name": "Running in Browser with Karma + karma-webpack",
     "path": "testing.html#running-in-browser-with-karma-karma-webpack",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   }
 }

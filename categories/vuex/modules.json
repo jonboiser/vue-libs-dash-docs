@@ -8,55 +8,55 @@
   "modules.html#module-local-state": {
     "name": "Module Local State",
     "path": "modules.html#module-local-state",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "modules.html#namespacing": {
     "name": "Namespacing",
     "path": "modules.html#namespacing",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "modules.html#accessing-global-assets-in-namespaced-modules": {
     "name": "Accessing Global Assets in Namespaced Modules",
     "path": "modules.html#accessing-global-assets-in-namespaced-modules",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "modules.html#register-global-action-in-namespaced-modules": {
     "name": "Register Global Action in Namespaced Modules",
     "path": "modules.html#register-global-action-in-namespaced-modules",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "modules.html#binding-helpers-with-namespace": {
     "name": "Binding Helpers with Namespace",
     "path": "modules.html#binding-helpers-with-namespace",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "modules.html#caveat-for-plugin-developers": {
     "name": "Caveat for Plugin Developers",
     "path": "modules.html#caveat-for-plugin-developers",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "modules.html#dynamic-module-registration": {
     "name": "Dynamic Module Registration",
     "path": "modules.html#dynamic-module-registration",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   },
   "modules.html#preserving-state": {
     "name": "Preserving state",
     "path": "modules.html#preserving-state",
-    "type": "Method",
+    "type": "Section",
     "tag": "h4"
   },
   "modules.html#module-reuse": {
     "name": "Module Reuse",
     "path": "modules.html#module-reuse",
-    "type": "Method",
+    "type": "Section",
     "tag": "h3"
   }
 }

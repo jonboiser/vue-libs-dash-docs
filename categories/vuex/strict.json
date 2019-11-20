@@ -6,6 +6,7 @@
     "tag": "h1"
   },
   "strict.html#development-vs-production": {
+    "skip": true,
     "name": "Development vs. Production",
     "path": "strict.html#development-vs-production",
     "type": "Method",
