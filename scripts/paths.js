@@ -10,6 +10,7 @@ module.exports = function getPaths(lib) {
       onlineUrl: 'https://vuex.vuejs.org',
       docsetResourcesDir: docsetDir('vuex'),
       rawHtmlDir: rawHtmlDir('vuex'),
+      categories: require('../categories/vuex'),
     };
   } else if (lib === 'vue-router') {
     return {
