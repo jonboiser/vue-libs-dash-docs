@@ -1,0 +1,20 @@
+{
+  "introduction.html#what-is-vuex": {
+    "name": "What is Vuex?",
+    "path": "introduction.html#what-is-vuex",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "introduction.html#what-is-a-state-management-pattern": {
+    "name": "What is a \"State Management Pattern\"?",
+    "path": "introduction.html#what-is-a-state-management-pattern",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "introduction.html#when-should-i-use-it": {
+    "name": "When Should I Use It?",
+    "path": "introduction.html#when-should-i-use-it",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

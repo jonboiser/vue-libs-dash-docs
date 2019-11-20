@@ -1,0 +1,182 @@
+{
+  "api.html#api-reference": {
+    "name": "API Reference",
+    "path": "api.html#api-reference",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "api.html#vuex-store": {
+    "name": "Vuex.Store",
+    "path": "api.html#vuex-store",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#vuex-store-constructor-options": {
+    "name": "Vuex.Store Constructor Options",
+    "path": "api.html#vuex-store-constructor-options",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#state": {
+    "name": "state",
+    "path": "api.html#state",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#mutations": {
+    "name": "mutations",
+    "path": "api.html#mutations",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#actions": {
+    "name": "actions",
+    "path": "api.html#actions",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#getters": {
+    "name": "getters",
+    "path": "api.html#getters",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#modules": {
+    "name": "modules",
+    "path": "api.html#modules",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#plugins": {
+    "name": "plugins",
+    "path": "api.html#plugins",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#strict": {
+    "name": "strict",
+    "path": "api.html#strict",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#devtools": {
+    "name": "devtools",
+    "path": "api.html#devtools",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#vuex-store-instance-properties": {
+    "name": "Vuex.Store Instance Properties",
+    "path": "api.html#vuex-store-instance-properties",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#state-2": {
+    "name": "state",
+    "path": "api.html#state-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#getters-2": {
+    "name": "getters",
+    "path": "api.html#getters-2",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#vuex-store-instance-methods": {
+    "name": "Vuex.Store Instance Methods",
+    "path": "api.html#vuex-store-instance-methods",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#commit": {
+    "name": "commit",
+    "path": "api.html#commit",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#dispatch": {
+    "name": "dispatch",
+    "path": "api.html#dispatch",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#replacestate": {
+    "name": "replaceState",
+    "path": "api.html#replacestate",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#watch": {
+    "name": "watch",
+    "path": "api.html#watch",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#subscribe": {
+    "name": "subscribe",
+    "path": "api.html#subscribe",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#subscribeaction": {
+    "name": "subscribeAction",
+    "path": "api.html#subscribeaction",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#registermodule": {
+    "name": "registerModule",
+    "path": "api.html#registermodule",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#unregistermodule": {
+    "name": "unregisterModule",
+    "path": "api.html#unregistermodule",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#hotupdate": {
+    "name": "hotUpdate",
+    "path": "api.html#hotupdate",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#component-binding-helpers": {
+    "name": "Component Binding Helpers",
+    "path": "api.html#component-binding-helpers",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#mapstate": {
+    "name": "mapState",
+    "path": "api.html#mapstate",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#mapgetters": {
+    "name": "mapGetters",
+    "path": "api.html#mapgetters",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#mapactions": {
+    "name": "mapActions",
+    "path": "api.html#mapactions",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#mapmutations": {
+    "name": "mapMutations",
+    "path": "api.html#mapmutations",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#createnamespacedhelpers": {
+    "name": "createNamespacedHelpers",
+    "path": "api.html#createnamespacedhelpers",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

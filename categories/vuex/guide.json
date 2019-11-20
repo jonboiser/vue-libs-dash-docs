@@ -1,0 +1,14 @@
+{
+  "guide.html#getting-started": {
+    "name": "Getting Started",
+    "path": "guide.html#getting-started",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "guide.html#the-simplest-store": {
+    "name": "The Simplest Store",
+    "path": "guide.html#the-simplest-store",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

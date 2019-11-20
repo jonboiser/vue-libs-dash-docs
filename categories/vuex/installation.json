@@ -1,0 +1,38 @@
+{
+  "installation.html#installation": {
+    "name": "Installation",
+    "path": "installation.html#installation",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "installation.html#direct-download-cdn": {
+    "name": "Direct Download / CDN",
+    "path": "installation.html#direct-download-cdn",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "installation.html#npm": {
+    "name": "NPM",
+    "path": "installation.html#npm",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "installation.html#yarn": {
+    "name": "Yarn",
+    "path": "installation.html#yarn",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "installation.html#promise": {
+    "name": "Promise",
+    "path": "installation.html#promise",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "installation.html#dev-build": {
+    "name": "Dev Build",
+    "path": "installation.html#dev-build",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

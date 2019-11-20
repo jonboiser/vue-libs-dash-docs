@@ -1,0 +1,14 @@
+{
+  "forms.html#form-handling": {
+    "name": "Form Handling",
+    "path": "forms.html#form-handling",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "forms.html#two-way-computed-property": {
+    "name": "Two-way Computed Property",
+    "path": "forms.html#two-way-computed-property",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

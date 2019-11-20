@@ -1,0 +1,14 @@
+{
+  "strict.html#strict-mode": {
+    "name": "Strict Mode",
+    "path": "strict.html#strict-mode",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "strict.html#development-vs-production": {
+    "name": "Development vs. Production",
+    "path": "strict.html#development-vs-production",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "mutations.html#mutations": {
+    "name": "Mutations",
+    "path": "mutations.html#mutations",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "mutations.html#commit-with-payload": {
+    "name": "Commit with Payload",
+    "path": "mutations.html#commit-with-payload",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "mutations.html#object-style-commit": {
+    "name": "Object-Style Commit",
+    "path": "mutations.html#object-style-commit",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "mutations.html#mutations-follow-vue-s-reactivity-rules": {
+    "name": "Mutations Follow Vue's Reactivity Rules",
+    "path": "mutations.html#mutations-follow-vue-s-reactivity-rules",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "mutations.html#using-constants-for-mutation-types": {
+    "name": "Using Constants for Mutation Types",
+    "path": "mutations.html#using-constants-for-mutation-types",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "mutations.html#mutations-must-be-synchronous": {
+    "name": "Mutations Must Be Synchronous",
+    "path": "mutations.html#mutations-must-be-synchronous",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "mutations.html#committing-mutations-in-components": {
+    "name": "Committing Mutations in Components",
+    "path": "mutations.html#committing-mutations-in-components",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "mutations.html#on-to-actions": {
+    "name": "On to Actions",
+    "path": "mutations.html#on-to-actions",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

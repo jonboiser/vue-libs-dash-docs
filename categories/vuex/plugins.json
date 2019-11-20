@@ -1,0 +1,26 @@
+{
+  "plugins.html#plugins": {
+    "name": "Plugins",
+    "path": "plugins.html#plugins",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "plugins.html#committing-mutations-inside-plugins": {
+    "name": "Committing Mutations Inside Plugins",
+    "path": "plugins.html#committing-mutations-inside-plugins",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "plugins.html#taking-state-snapshots": {
+    "name": "Taking State Snapshots",
+    "path": "plugins.html#taking-state-snapshots",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "plugins.html#built-in-logger-plugin": {
+    "name": "Built-in Logger Plugin",
+    "path": "plugins.html#built-in-logger-plugin",
+    "type": "Method",
+    "tag": "h3"
+  }
+}

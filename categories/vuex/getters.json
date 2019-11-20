@@ -1,0 +1,26 @@
+{
+  "getters.html#getters": {
+    "name": "Getters",
+    "path": "getters.html#getters",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "getters.html#property-style-access": {
+    "name": "Property-Style Access",
+    "path": "getters.html#property-style-access",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "getters.html#method-style-access": {
+    "name": "Method-Style Access",
+    "path": "getters.html#method-style-access",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "getters.html#the-mapgetters-helper": {
+    "name": "The mapGetters Helper",
+    "path": "getters.html#the-mapgetters-helper",
+    "type": "Method",
+    "tag": "h3"
+  }
+}
