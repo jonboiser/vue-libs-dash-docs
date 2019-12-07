@@ -5,5 +5,4 @@ module.exports = {
   ...require('./introduction.json'),
   ...require('./options.json'),
   ...require('./wrapper.json'),
-  ...require('./wrapper.json'),
 };

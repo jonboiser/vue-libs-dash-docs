@@ -1,0 +1,20 @@
+{
+  "transitions.html#transitions": {
+    "name": "Transitions",
+    "path": "transitions.html#transitions",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "transitions.html#per-route-transition": {
+    "name": "Per-Route Transition",
+    "path": "transitions.html#per-route-transition",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "transitions.html#route-based-dynamic-transition": {
+    "name": "Route-Based Dynamic Transition",
+    "path": "transitions.html#route-based-dynamic-transition",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

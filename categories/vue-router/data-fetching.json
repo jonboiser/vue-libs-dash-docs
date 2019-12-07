@@ -1,0 +1,20 @@
+{
+  "data-fetching.html#data-fetching": {
+    "name": "Data Fetching",
+    "path": "data-fetching.html#data-fetching",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "data-fetching.html#fetching-after-navigation": {
+    "name": "Fetching After Navigation",
+    "path": "data-fetching.html#fetching-after-navigation",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "data-fetching.html#fetching-before-navigation": {
+    "name": "Fetching Before Navigation",
+    "path": "data-fetching.html#fetching-before-navigation",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

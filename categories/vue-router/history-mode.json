@@ -1,0 +1,70 @@
+{
+  "history-mode.html#html5-history-mode": {
+    "name": "HTML5 History Mode",
+    "path": "history-mode.html#html5-history-mode",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "history-mode.html#example-server-configurations": {
+    "name": "Example Server Configurations",
+    "path": "history-mode.html#example-server-configurations",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "history-mode.html#apache": {
+    "name": "Apache",
+    "path": "history-mode.html#apache",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#nginx": {
+    "name": "nginx",
+    "path": "history-mode.html#nginx",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#native-node-js": {
+    "name": "Native Node.js",
+    "path": "history-mode.html#native-node-js",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#express-with-node-js": {
+    "name": "Express with Node.js",
+    "path": "history-mode.html#express-with-node-js",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#internet-information-services-iis": {
+    "name": "Internet Information Services (IIS)",
+    "path": "history-mode.html#internet-information-services-iis",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#caddy": {
+    "name": "Caddy",
+    "path": "history-mode.html#caddy",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#firebase-hosting": {
+    "name": "Firebase hosting",
+    "path": "history-mode.html#firebase-hosting",
+    "type": "Method",
+    "tag": "h4",
+    "skip": true
+  },
+  "history-mode.html#caveat": {
+    "name": "Caveat",
+    "path": "history-mode.html#caveat",
+    "type": "Section",
+    "tag": "h2",
+    "skip": true
+  }
+}

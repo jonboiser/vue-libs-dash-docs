@@ -1,0 +1,20 @@
+{
+  "redirect-and-alias.html#redirect-and-alias": {
+    "name": "Redirect and Alias",
+    "path": "redirect-and-alias.html#redirect-and-alias",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "redirect-and-alias.html#redirect": {
+    "name": "Redirect",
+    "path": "redirect-and-alias.html#redirect",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "redirect-and-alias.html#alias": {
+    "name": "Alias",
+    "path": "redirect-and-alias.html#alias",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

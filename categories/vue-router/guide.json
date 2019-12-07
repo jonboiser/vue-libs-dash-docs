@@ -1,0 +1,20 @@
+{
+  "guide.html#getting-started": {
+    "name": "Getting Started",
+    "path": "guide.html#getting-started",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "guide.html#html": {
+    "name": "HTML",
+    "path": "guide.html#html",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "guide.html#javascript": {
+    "name": "JavaScript",
+    "path": "guide.html#javascript",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

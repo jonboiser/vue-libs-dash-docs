@@ -1,0 +1,26 @@
+{
+  "passing-props.html#passing-props-to-route-components": {
+    "name": "Passing Props to Route Components",
+    "path": "passing-props.html#passing-props-to-route-components",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "passing-props.html#boolean-mode": {
+    "name": "Boolean mode",
+    "path": "passing-props.html#boolean-mode",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "passing-props.html#object-mode": {
+    "name": "Object mode",
+    "path": "passing-props.html#object-mode",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "passing-props.html#function-mode": {
+    "name": "Function mode",
+    "path": "passing-props.html#function-mode",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

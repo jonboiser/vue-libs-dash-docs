@@ -1,0 +1,14 @@
+{
+  "named-views.html#named-views": {
+    "name": "Named Views",
+    "path": "named-views.html#named-views",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "named-views.html#nested-named-views": {
+    "name": "Nested Named Views",
+    "path": "named-views.html#nested-named-views",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

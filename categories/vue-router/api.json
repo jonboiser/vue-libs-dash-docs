@@ -1,0 +1,292 @@
+{
+  "api.html#api-reference": {
+    "name": "API Reference",
+    "path": "api.html#api-reference",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "api.html#router-link": {
+    "name": "<router-link>",
+    "path": "api.html#router-link",
+    "type": "Component",
+    "tag": "h2"
+  },
+  "api.html#v-slot-api-3-1-0": {
+    "name": "v-slot API (3.1.0+)",
+    "path": "api.html#v-slot-api-3-1-0",
+    "type": "Directive",
+    "tag": "h3"
+  },
+  "api.html#example-applying-active-class-to-outer-element": {
+    "name": "Example: Applying Active Class to Outer Element",
+    "path": "api.html#example-applying-active-class-to-outer-element",
+    "type": "Section",
+    "tag": "h4"
+  },
+  "api.html#router-link-props": {
+    "name": "<router-link> Props",
+    "path": "api.html#router-link-props",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#to": {
+    "name": "to",
+    "path": "api.html#to",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#replace": {
+    "name": "replace",
+    "path": "api.html#replace",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#append": {
+    "name": "append",
+    "path": "api.html#append",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#tag": {
+    "name": "tag",
+    "path": "api.html#tag",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#active-class": {
+    "name": "active-class",
+    "path": "api.html#active-class",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#exact": {
+    "name": "exact",
+    "path": "api.html#exact",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#event": {
+    "name": "event",
+    "path": "api.html#event",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#exact-active-class": {
+    "name": "exact-active-class",
+    "path": "api.html#exact-active-class",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#router-view": {
+    "name": "<router-view>",
+    "path": "api.html#router-view",
+    "type": "Component",
+    "tag": "h2"
+  },
+  "api.html#router-view-props": {
+    "name": "<router-view> Props",
+    "path": "api.html#router-view-props",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#name": {
+    "name": "name",
+    "path": "api.html#name",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#router-construction-options": {
+    "name": "Router Construction Options",
+    "path": "api.html#router-construction-options",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#routes": {
+    "name": "routes",
+    "path": "api.html#routes",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#mode": {
+    "name": "mode",
+    "path": "api.html#mode",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#base": {
+    "name": "base",
+    "path": "api.html#base",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#linkactiveclass": {
+    "name": "linkActiveClass",
+    "path": "api.html#linkactiveclass",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#linkexactactiveclass": {
+    "name": "linkExactActiveClass",
+    "path": "api.html#linkexactactiveclass",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#scrollbehavior": {
+    "name": "scrollBehavior",
+    "path": "api.html#scrollbehavior",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#parsequery-stringifyquery": {
+    "name": "parseQuery / stringifyQuery",
+    "path": "api.html#parsequery-stringifyquery",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#fallback": {
+    "name": "fallback",
+    "path": "api.html#fallback",
+    "type": "Option",
+    "tag": "h3"
+  },
+  "api.html#router-instance-properties": {
+    "name": "Router Instance Properties",
+    "path": "api.html#router-instance-properties",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#router-app": {
+    "name": "router.app",
+    "path": "api.html#router-app",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#router-mode": {
+    "name": "router.mode",
+    "path": "api.html#router-mode",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#router-currentroute": {
+    "name": "router.currentRoute",
+    "path": "api.html#router-currentroute",
+    "type": "Property",
+    "tag": "h3"
+  },
+  "api.html#router-instance-methods": {
+    "name": "Router Instance Methods",
+    "path": "api.html#router-instance-methods",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#router-beforeeach": {
+    "name": "router.beforeEach",
+    "path": "api.html#router-beforeeach",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-beforeresolve": {
+    "name": "router.beforeResolve",
+    "path": "api.html#router-beforeresolve",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-aftereach": {
+    "name": "router.afterEach",
+    "path": "api.html#router-aftereach",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-push": {
+    "name": "router.push",
+    "path": "api.html#router-push",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-replace": {
+    "name": "router.replace",
+    "path": "api.html#router-replace",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-go": {
+    "name": "router.go",
+    "path": "api.html#router-go",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-back": {
+    "name": "router.back",
+    "path": "api.html#router-back",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-forward": {
+    "name": "router.forward",
+    "path": "api.html#router-forward",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-getmatchedcomponents": {
+    "name": "router.getMatchedComponents",
+    "path": "api.html#router-getmatchedcomponents",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-resolve": {
+    "name": "router.resolve",
+    "path": "api.html#router-resolve",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-addroutes": {
+    "name": "router.addRoutes",
+    "path": "api.html#router-addroutes",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-onready": {
+    "name": "router.onReady",
+    "path": "api.html#router-onready",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#router-onerror": {
+    "name": "router.onError",
+    "path": "api.html#router-onerror",
+    "type": "Method",
+    "tag": "h3"
+  },
+  "api.html#the-route-object": {
+    "name": "The Route Object",
+    "path": "api.html#the-route-object",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#route-object-properties": {
+    "name": "Route Object Properties",
+    "path": "api.html#route-object-properties",
+    "type": "Section",
+    "tag": "h3"
+  },
+  "api.html#component-injections": {
+    "name": "Component Injections",
+    "path": "api.html#component-injections",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "api.html#component-injected-properties": {
+    "name": "Component Injected Properties",
+    "path": "api.html#component-injected-properties",
+    "type": "Method",
+    "tag": "h3",
+    "skip": true
+  },
+  "api.html#component-enabled-options": {
+    "name": "Component Enabled Options",
+    "path": "api.html#component-enabled-options",
+    "type": "Method",
+    "tag": "h3",
+    "skip": true
+  }
+}

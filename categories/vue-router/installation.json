@@ -1,0 +1,26 @@
+{
+  "installation.html#installation": {
+    "name": "Installation",
+    "path": "installation.html#installation",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "installation.html#direct-download-cdn": {
+    "name": "Direct Download / CDN",
+    "path": "installation.html#direct-download-cdn",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "installation.html#npm": {
+    "name": "npm",
+    "path": "installation.html#npm",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "installation.html#dev-build": {
+    "name": "Dev Build",
+    "path": "installation.html#dev-build",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

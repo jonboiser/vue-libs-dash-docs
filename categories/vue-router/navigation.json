@@ -1,0 +1,32 @@
+{
+  "navigation.html#programmatic-navigation": {
+    "name": "Programmatic Navigation",
+    "path": "navigation.html#programmatic-navigation",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "navigation.html#router-push-location-oncomplete-onabort": {
+    "name": "router.push(location, onComplete?, onAbort?)",
+    "path": "navigation.html#router-push-location-oncomplete-onabort",
+    "type": "Method",
+    "tag": "h2"
+  },
+  "navigation.html#router-replace-location-oncomplete-onabort": {
+    "name": "router.replace(location, onComplete?, onAbort?)",
+    "path": "navigation.html#router-replace-location-oncomplete-onabort",
+    "type": "Method",
+    "tag": "h2"
+  },
+  "navigation.html#router-go-n": {
+    "name": "router.go(n)",
+    "path": "navigation.html#router-go-n",
+    "type": "Method",
+    "tag": "h2"
+  },
+  "navigation.html#history-manipulation": {
+    "name": "History Manipulation",
+    "path": "navigation.html#history-manipulation",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

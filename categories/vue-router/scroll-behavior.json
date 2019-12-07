@@ -1,0 +1,14 @@
+{
+  "scroll-behavior.html#scroll-behavior": {
+    "name": "Scroll Behavior",
+    "path": "scroll-behavior.html#scroll-behavior",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "scroll-behavior.html#async-scrolling": {
+    "name": "Async Scrolling",
+    "path": "scroll-behavior.html#async-scrolling",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

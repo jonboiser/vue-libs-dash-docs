@@ -1,0 +1,32 @@
+{
+  "dynamic-matching.html#dynamic-route-matching": {
+    "name": "Dynamic Route Matching",
+    "path": "dynamic-matching.html#dynamic-route-matching",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "dynamic-matching.html#reacting-to-params-changes": {
+    "name": "Reacting to Params Changes",
+    "path": "dynamic-matching.html#reacting-to-params-changes",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "dynamic-matching.html#catch-all-404-not-found-route": {
+    "name": "Catch all / 404 Not found Route",
+    "path": "dynamic-matching.html#catch-all-404-not-found-route",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "dynamic-matching.html#advanced-matching-patterns": {
+    "name": "Advanced Matching Patterns",
+    "path": "dynamic-matching.html#advanced-matching-patterns",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "dynamic-matching.html#matching-priority": {
+    "name": "Matching Priority",
+    "path": "dynamic-matching.html#matching-priority",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

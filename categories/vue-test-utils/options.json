@@ -8,85 +8,85 @@
   "options.html#context": {
     "name": "context",
     "path": "options.html#context",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#slots": {
     "name": "slots",
     "path": "options.html#slots",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#scopedslots": {
     "name": "scopedSlots",
     "path": "options.html#scopedslots",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#stubs": {
     "name": "stubs",
     "path": "options.html#stubs",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#mocks": {
     "name": "mocks",
     "path": "options.html#mocks",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#localvue": {
     "name": "localVue",
     "path": "options.html#localvue",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#attachtodocument": {
     "name": "attachToDocument",
     "path": "options.html#attachtodocument",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#attrs": {
     "name": "attrs",
     "path": "options.html#attrs",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#propsdata": {
     "name": "propsData",
     "path": "options.html#propsdata",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#listeners": {
     "name": "listeners",
     "path": "options.html#listeners",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#parentcomponent": {
     "name": "parentComponent",
     "path": "options.html#parentcomponent",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#provide": {
     "name": "provide",
     "path": "options.html#provide",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#sync": {
     "name": "sync",
     "path": "options.html#sync",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   },
   "options.html#other-options": {
     "name": "Other options",
     "path": "options.html#other-options",
-    "type": "Option",
+    "type": "Section",
     "tag": "h2"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "lazy-loading.html#lazy-loading-routes": {
+    "name": "Lazy Loading Routes",
+    "path": "lazy-loading.html#lazy-loading-routes",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "lazy-loading.html#grouping-components-in-the-same-chunk": {
+    "name": "Grouping Components in the Same Chunk",
+    "path": "lazy-loading.html#grouping-components-in-the-same-chunk",
+    "type": "Section",
+    "tag": "h2"
+  }
+}

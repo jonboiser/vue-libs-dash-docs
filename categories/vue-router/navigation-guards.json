@@ -1,0 +1,44 @@
+{
+  "navigation-guards.html#navigation-guards": {
+    "name": "Navigation Guards",
+    "path": "navigation-guards.html#navigation-guards",
+    "type": "Guide",
+    "tag": "h1"
+  },
+  "navigation-guards.html#global-before-guards": {
+    "name": "Global Before Guards",
+    "path": "navigation-guards.html#global-before-guards",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "navigation-guards.html#global-resolve-guards": {
+    "name": "Global Resolve Guards",
+    "path": "navigation-guards.html#global-resolve-guards",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "navigation-guards.html#global-after-hooks": {
+    "name": "Global After Hooks",
+    "path": "navigation-guards.html#global-after-hooks",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "navigation-guards.html#per-route-guard": {
+    "name": "Per-Route Guard",
+    "path": "navigation-guards.html#per-route-guard",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "navigation-guards.html#in-component-guards": {
+    "name": "In-Component Guards",
+    "path": "navigation-guards.html#in-component-guards",
+    "type": "Section",
+    "tag": "h2"
+  },
+  "navigation-guards.html#the-full-navigation-resolution-flow": {
+    "name": "The Full Navigation Resolution Flow",
+    "path": "navigation-guards.html#the-full-navigation-resolution-flow",
+    "type": "Section",
+    "tag": "h2"
+  }
+}
