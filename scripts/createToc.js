@@ -24,11 +24,9 @@ cleanHtmlFiles.forEach(async function addToc(fileName) {
     const href = $(this).attr('href');
     // Use filename + href as key in category file
     const category = categories[fileName + href];
-    if (
-      category &&
-      (category.type === 'Section' || category.type === 'Guide')
-    ) {
-      $(this).append(tocTag(category.type, encodeURIComponent(category.name)));
+    if (category) {
+      console.log(tocTag(category.type, encodeURIComponent(category.name)));
+      $(this).after(tocTag(category.type, encodeURIComponent(category.name)));
     }
   });
 

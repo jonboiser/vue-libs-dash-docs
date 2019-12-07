@@ -10,6 +10,8 @@
   },
   "scripts": {
     "docset-vuex": "npm run cleanup-vuex && npm run toc-vuex && npm run build-vuex",
+    "docset-vue-router": "npm run cleanup-vue-router && npm run toc-vue-router && npm run build-vue-router",
+    "docset-vue-test-utils": "npm run cleanup-vue-test-utils && npm run toc-vue-test-utils && npm run build-vue-test-utils",
     "cleanup-vuex": "node ./scripts/cleanup.js vuex",
     "cleanup-vue-router": "node ./scripts/cleanup.js vue-router",
     "cleanup-vue-test-utils": "node ./scripts/cleanup.js vue-test-utils",
