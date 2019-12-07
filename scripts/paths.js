@@ -11,12 +11,15 @@ module.exports = function getPaths(lib) {
       docsetResourcesDir: docsetDir('vuex'),
       rawHtmlDir: rawHtmlDir('vuex'),
       categories: require('../categories/vuex'),
+      categoriesDir: '../categories/vuex',
     };
   } else if (lib === 'vue-router') {
     return {
       onlineUrl: 'https://router.vuejs.org',
       docsetResourcesDir: docsetDir('vuerouter'),
       rawHtmlDir: rawHtmlDir('vue-router'),
+      categories: require('../categories/vue-router'),
+      categoriesDir: '../categories/vue-router',
     };
   } else {
     return {
@@ -24,6 +27,7 @@ module.exports = function getPaths(lib) {
       docsetResourcesDir: docsetDir('vuetest'),
       rawHtmlDir: rawHtmlDir('vue-test-utils'),
       categories: require('../categories/vue-test-utils'),
+      categoriesDir: '../categories/vue-test-utils',
     };
   }
 };

@@ -10,5 +10,7 @@
 	<string>vuetest</string>
 	<key>isDashDocset</key>
 	<true/>
+	<key>DashDocSetFamily</key>
+	<string>dashtoc</string>
 </dict>
 </plist>

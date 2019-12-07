@@ -34,6 +34,13 @@ db.serialize(() => {
       console.log('Skipping', key);
     } else {
       console.log('Adding entry for', key, name, type);
+      console.log(
+        insertQuery({
+          name,
+          path,
+          type,
+        }),
+      );
       db.run(
         insertQuery({
           name,

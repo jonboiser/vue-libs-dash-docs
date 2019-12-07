@@ -9,9 +9,13 @@
     "sqlite3": "^4.1.0"
   },
   "scripts": {
+    "docset-vuex": "npm run cleanup-vuex && npm run toc-vuex && npm run build-vuex",
     "cleanup-vuex": "node ./scripts/cleanup.js vuex",
     "cleanup-vue-router": "node ./scripts/cleanup.js vue-router",
     "cleanup-vue-test-utils": "node ./scripts/cleanup.js vue-test-utils",
+    "toc-vuex": "node ./scripts/createToc.js vuex",
+    "toc-vue-router": "node ./scripts/createToc.js vue-router",
+    "toc-vue-test-utils": "node ./scripts/createToc.js vue-test-utils",
     "build-vuex": "node ./scripts/createDatabase.js vuex",
     "build-vue-router": "node ./scripts/createDatabase.js vue-router",
     "build-vue-test-utils": "node ./scripts/createDatabase.js vue-test-utils"

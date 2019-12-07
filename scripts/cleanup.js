@@ -123,12 +123,22 @@ rawHtmlFiles.forEach(async function cleanFile(fileName) {
     };
   });
 
-    console.log(path.join('..', fileName.replace('.html', '.json')));
-  // Write clean file to disk
-  fs.writeFileSync(
-    path.join(__dirname, '../categories', lib, fileName.replace('.html', '.json')),
-    JSON.stringify(linkData, null, 2),
-    'utf8'
+  // Write categories JSON file
+  const categoryFileName = path.join(
+    __dirname,
+    '../categories',
+    lib,
+    fileName.replace('.html', '.json'),
   );
+  if (!fs.existsSync(categoryFileName)) {
+    console.log(
+      'Category file created at',
+      path.join('..', fileName.replace('.html', '.json')),
+    );
+
+    fs.writeFileSync(categoryFileName);
+  }
+
+  // Write clean HTML file
   fsc.writeFile(outPath, $);
 });
