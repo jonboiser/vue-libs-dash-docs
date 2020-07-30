@@ -77,6 +77,12 @@
     "type": "Property",
     "tag": "h3"
   },
+  "api.html#aria-current-value": {
+    "name": "aria-current-value",
+    "path": "api.html#aria-current-value",
+    "type": "Method",
+    "tag": "h3"
+  },
   "api.html#router-view": {
     "name": "<router-view>",
     "path": "api.html#router-view",

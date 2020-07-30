@@ -17,6 +17,12 @@
     "type": "Section",
     "tag": "h2"
   },
+  "installation.html#vue-cli": {
+    "name": "Vue CLI",
+    "path": "installation.html#vue-cli",
+    "type": "Section",
+    "tag": "h2"
+  },
   "installation.html#dev-build": {
     "name": "Dev Build",
     "path": "installation.html#dev-build",

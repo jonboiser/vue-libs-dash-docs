@@ -61,14 +61,14 @@ rawHtmlFiles.forEach(async function cleanFile(fileName) {
   $('.page').removeClass('page');
 
   // HACK: Wrap headers in .custom to remove extra padding
-  ['h1', 'h2', 'h3', 'h4'].forEach(function(htag) {
-    $(htag).each(function(i, elem) {
+  ['h1', 'h2', 'h3', 'h4'].forEach(function (htag) {
+    $(htag).each(function (i, elem) {
       $(this).wrap('<span class="custom"></span>');
     });
   });
 
   // Rewrite links to reference local HTML files.
-  $('a').each(function(i, elem) {
+  $('a').each(function (i, elem) {
     let href = $(this).attr('href');
     if (href.startsWith(onlineUrl)) {
       let newHref;
@@ -93,15 +93,9 @@ rawHtmlFiles.forEach(async function cleanFile(fileName) {
 
   // Write JSON file of a.header-anchors to annotate manually,
   // after applying some defaults.
-  $('a.header-anchor').each(function(i, elem) {
+  $('a.header-anchor').each(function (i, elem) {
     let path = $(this).attr('href');
-    const name = ramda.replace(
-      '# ',
-      '',
-      $(this)
-        .parent()
-        .text(),
-    );
+    const name = ramda.replace('# ', '', $(this).parent().text());
 
     if (path.startsWith('#')) {
       path = fileName + path;
@@ -130,14 +124,14 @@ rawHtmlFiles.forEach(async function cleanFile(fileName) {
     lib,
     fileName.replace('.html', '.json'),
   );
-  if (!fs.existsSync(categoryFileName)) {
-    console.log(
-      'Category file created at',
-      path.join('..', fileName.replace('.html', '.json')),
-    );
 
-    fs.writeFileSync(categoryFileName);
-  }
+  // Un-comment to update categories JSON
+  // console.log(
+  //   'Category file created at',
+  //   path.join('..', fileName.replace('.html', '.json')),
+  // );
+  //
+  // fs.writeFileSync(categoryFileName, JSON.stringify(linkData, null, 2), 'utf8');
 
   // Write clean HTML file
   fsc.writeFile(outPath, $);
